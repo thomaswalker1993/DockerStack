@@ -1,8 +1,8 @@
 product-service:
-  image: 'jakewright/example-product-service:latest'
+  image: 'tomwalker2207/testrepo:latest'
   restart: always
 website:
-  image: 'jakewright/example-shop-website:latest'
+  image: 'tomwalker2207/testrepo2:latest'
   restart: always
   links:
     - product-service
