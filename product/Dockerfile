@@ -1,4 +1,3 @@
 FROM python:3-onbuild
 COPY . /usr/src/app
-RUN pip install -r requirements.txt
-CMD api.py
+CMD ["python", "api.py"]
